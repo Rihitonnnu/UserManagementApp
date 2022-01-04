@@ -1,6 +1,5 @@
-import { Box, Stack, Image, Text, Modal, ModalOverlay, ModalContent, ModalHeader, ModalCloseButton, ModalBody, FormControl, FormLabel, Input, ModalFooter } from "@chakra-ui/react";
-import { VFC, memo, ReactNode, useState, useEffect, ChangeEvent } from "react";
-import { setSourceMapRange } from "typescript";
+import { Stack, Modal, ModalOverlay, ModalContent, ModalHeader, ModalCloseButton, ModalBody, FormControl, FormLabel, Input, ModalFooter } from "@chakra-ui/react";
+import { VFC, memo,useState, useEffect, ChangeEvent } from "react";
 import { PrimaryButton } from "../../components/atoms/button/PrimaryButton";
 import { User } from "../../types/api/user";
 
